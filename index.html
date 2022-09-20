@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario Registro</title>
+</head>
+
+<body>
+    <section class="form-register">
+        <h4>Registro Semilleros</h4>
+        <form id="formulario">
+            <x>Seleccione el semillero de su interes:</x>
+            <select class="list">
+                <option disabled selected>Seleccione un semillero</option>
+                <option>Centro de investigaciones de Psicologia</option>
+                <option>Centro de investigaciones de la Escuela de Negocios</option>
+                <option>Centro de investigaciones de Matematicas e Ingenierias</option>
+            </select>
+
+        </form>
+        <input class="controls" type="text" name="nombres" id="nombres">
+        <input class="controls" type="text" name="apellidos" id="apellidos">
+        <input class="controls" type="email" name="correo" id="correo">
+        <input class="controls" type="password" name="contraseña" id="contraseña">
+
+        <input class="botons" type="submit" id="btn" onclick=resetForm();>
+        <p><a id="btn1" href="#">Más información</a></p>
+    </section>
+    <script src="index.js"> </script>
+</body>
+
+</html>
